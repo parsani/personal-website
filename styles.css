@@ -64,6 +64,76 @@
 	src: url("https://fonts.gstatic.com/s/muli/v34/7Aulp_0qiz-aVz7u3PJLcUMYOFlOl0k30e0.ttf") format('truetype');
 }
 
+@font-face {
+	font-family: "IranNastaliq";
+	src: url("./assets/IranNastaliq.ttf") format("truetype");
+	font-weight: normal;
+  	font-style: normal;
+  	font-display: swap;
+}
+
+.khayyam-quote {
+  margin: 1.5rem 0 2.5rem 0;
+  text-align: center;
+}
+
+.khayyam-text {
+  font-family: "IranNastaliq", serif;
+  font-size: 1.2rem;
+  line-height: 2.4;
+  direction: rtl;
+  color: #3a3a3a;
+}
+
+.khayyam-author {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  color: #6c757d;
+}
+
+
+
+.khayyam-bayt-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .kh-hem {
+    white-space: nowrap;
+  }
+}
+
+.khayyam-grid {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.khayyam-box {
+  padding: 0.75rem 1rem;
+}
+
+
+.khayyam-en {
+  direction: ltr;
+  font-family: inherit;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  font-style: italic;
+  color: #555;
+}
+
+.khayyam-stagger {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
 @charset "UTF-8";
 
 /*!
